@@ -1,0 +1,101 @@
+/* Global Css */
+*{
+    margin: 0;
+    padding:0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family:'Lato', sans-serif;
+
+}
+a,a:hover{
+    text-decoration: none;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+}
+.container{
+    width:1140px;
+    float: left;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+/* Global Css End */
+
+/* Header Part Css Start */
+.header-part{
+    background-color: #f6f9f9;
+    overflow: hidden;
+}
+.logo{
+    width: 100%;
+    padding: 17px 0px;
+    text-align: center;
+}
+.nav{
+    line-height: 68px;
+    font-size: 17px;
+    font-weight:bold;
+    text-align: right;
+    margin-left: 50px;
+}
+.nav li{
+     display: inline-block;
+     padding: 0px 10px;
+     font-family:'Lato', sans-serif; 
+}
+
+/* Header Part End */
+
+/* Banner Part Css */
+.banner{
+    width: 100%;
+    float: left;
+    background: url(../images/Strict.png) center top no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+    text-align: center;
+}
+.banner .inner{
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding: 80px 55px;
+}
+.banner .inner h1{
+    color:#f6f9f9;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.banner .inner .divider{
+    width: 40%;
+    height: 2px;
+    background-color: #15a4fa;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+}
+.banner .inner p{
+    color: #f6f9f9;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.banner .inner a{
+    color: #f6f9f9 ;
+    border: 1px solid #15a4fa;
+    padding: 6px 8px;
+    margin: 10px 0px;
+    display: inline-block;
+}
+.banner .inner .icon{
+    margin-top: 80px;
+}
